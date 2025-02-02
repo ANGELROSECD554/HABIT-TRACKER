@@ -90,11 +90,3 @@ Reflect on your progress, celebrate your consistency, and plan to maintain your 
 !Final
 [PROJECT](https://github.com/user-attachments/assets/db862fce-a563-41de-be68-c3d28190762c)
 
-
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
-
----
-Made with ❤️ at TinkerHub
