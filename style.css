@@ -1,0 +1,169 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5dc; /* Light beige background */
+    color: #4a4a4a; /* Dark gray text */
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  #app {
+    background-color: #ffffff; /* White background for the app */
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #2e8b57; /* Forest green */
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  #tree-container {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #e9f5e9; /* Light green background */
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  #tree {
+    display: inline-block;
+  }
+  
+  #habits {
+    margin: 20px 0;
+  }
+  
+  #add-habit-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #habit-input {
+    padding: 10px;
+    width: 70%;
+    border: 2px solid #8fbc8f; /* Light green border */
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  #habit-input:focus {
+    border-color: #2e8b57; /* Forest green on focus */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #8fbc8f; /* Light green button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2e8b57; /* Darker green on hover */
+  }
+  
+  #habit-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #habit-list li {
+    background-color: #f0fff0; /* Light mint green */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #habit-list input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  #habit-list label {
+    flex-grow: 1;
+    text-align: left;
+    font-size: 1.1rem;
+    color: #4a4a4a; /* Dark gray text */
+  }
+  
+  #progress {
+    font-size: 1.2rem;
+    color: #2e8b57; /* Forest green */
+    margin-top: 20px;
+    font-weight: 500;
+  }
+  
+  /* Confetti Animation */
+  #confetti-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1000;
+  }
+  
+  .confetti {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #ffd700; /* Gold color */
+    animation: fall 2s linear infinite;
+  }
+  
+  @keyframes fall {
+    0% {
+      transform: translateY(-10vh) rotate(0deg);
+    }
+    100% {
+      transform: translateY(110vh) rotate(360deg);
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    #habit-input {
+      width: 60%;
+    }
+  
+    button {
+      padding: 10px 15px;
+    }
+  
+    #habit-list li {
+      font-size: 1rem;
+    }
+  }
