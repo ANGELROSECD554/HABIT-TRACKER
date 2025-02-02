@@ -1,19 +1,18 @@
-# HABIT TRACKER 🎯
+ HABIT TRACKER 🎯
+
+ Basic Details
+ Team Name: TECHIARAH
 
 
-## Basic Details
-### Team Name: TECHIARAH
-
-
-### Team Members
+ Team Members
 - Member 1: ANGEL ROSE C D - VJEC
 - Member 2: SHELNA MICHAEL - VJEC
   
 
-### Hosted Project Link
+Hosted Project Link
 
 
-### Project Description
+Project Description
 A **Habit Tracker** is a tool to monitor daily routines, build good habits, and stay consistent. It helps track progress, set goals, and stay motivated using checklists, streaks, and reminders. 🚀
 
 ### The Problem statement
@@ -69,16 +68,27 @@ open index.html  # For macOS
 
   open index.html  # For macOS
   start index.html  # For Windows
+  
+# Screenshots (Add at least 3)
+!1ST DAY
+![Screenshot 2025-02-02 112121](https://github.com/user-attachments/assets/7b0efd91-99b5-47db-8c56-65214b5e6cff)
+Setting your goals, logging your habits, and getting started with consistency.
 
+!10TH DAY
+![Screenshot 2025-02-02 112150](https://github.com/user-attachments/assets/c890c27e-29e1-444f-bdaa-04425763952a)
+Stay consistent, review progress, and keep building momentum toward your goals.
 
+!20TH DAY
+![Screenshot 2025-02-02 112254](https://github.com/user-attachments/assets/915da7bb-8c6a-4299-b613-04fcff3348ac)
+Reflect on your progress, celebrate your consistency, and plan to maintain your new habits.
 
 
 # Build Photos
-![Team](Add photo of your team here)
 
+![TECHIARAH](https://github.com/user-attachments/assets/ea8769c4-b577-4b22-8d57-1d9d975eec56)
 
-![Final](Add photo of final product here)
-
+!Final
+[PROJECT](https://github.com/user-attachments/assets/db862fce-a563-41de-be68-c3d28190762c)
 
 
 ## Team Contributions
